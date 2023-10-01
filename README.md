@@ -25,6 +25,7 @@ cd path-to-backend  [ Please replace 'path-to-backend' with your actual backend 
  npm install
 
 Run the server:
+
 npm start
 
 The server will start, typically on http://localhost:3001.
@@ -42,15 +43,21 @@ npm install
 
 **Features**:
 **Category List**: Displays a list of medical specialties for users to choose from.
+
 **Doctor Details**: Provides detailed information on each doctor, including an image, location, consultation fees,clinic details, and patient stories,booking appointments.
 
 Directories Structure:
+
 /frontend: Contains the React app.
+
 /img: Images used in the frontend.
-/backend: Contains the Node.js server.
+
+backend: Contains the Node.js server.
+
 /doctorsData: Static data about the doctors.
 
 **Contributing**:
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 License
