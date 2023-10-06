@@ -1,0 +1,37 @@
+.category-list {
+    text-align: center;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .category {
+    list-style-type: none;
+    align-items: flex-start;
+    width:25%;
+  }
+  
+  .category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .category h2 {
+    margin-top: 10px;
+  }
+  
+  .category p {
+    margin-top: 5px;
+  }
+
+
+  .category-image:hover {
+    cursor: pointer;
+}
+
+  

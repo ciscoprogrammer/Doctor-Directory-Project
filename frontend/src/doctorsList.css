@@ -1,0 +1,191 @@
+.doctor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100px;  
+    height: 100px;
+    margin-right: 15px;
+  }
+
+  .verification-tick {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  transform: translate(40%, 40%);
+    color: white; 
+    background-color: blue; 
+    border-radius: 50%; 
+    padding: 3px 5px; 
+    font-size: 10px; 
+    box-shadow: 0px 0px 10px rgba(0,0,255,0.3);
+  }
+
+.doctor-image {
+    display:block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin-right: 1rem;
+}
+
+.doctor-details {
+    flex-grow: 1;
+}
+.doctor-details h2{
+    color: mediumpurple;
+    margin-bottom:6px;
+}
+.doctor-details p {
+    font-size: 0.8rem;  
+    font-weight: normal;  
+    margin: 0.5rem 0;  
+    line-height: 70%;
+}
+
+.doctor-details p strong {
+    font-weight: bold;
+    color: #888;  
+}
+
+.doctor-details p.specialization, 
+.doctor-details p.experience {
+    font-size: 0.8rem; 
+    color: #bbb; 
+    margin-top:0%;
+}
+
+
+bottom-text-container-two-rows {
+    
+    margin-top: 3.5rem;
+}
+.doctor-details p.experience {
+    margin-bottom: 1.5rem; 
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.rating-stories-container {
+  display: flex;
+  align-items: center;  
+}
+
+.patient-stories {
+  color: darkgreen;
+  text-decoration: underline;
+  font-size: small;
+  font-weight: bold !important;
+  margin-left: 1em;  
+}
+
+.patient-stories:hover {
+    cursor:pointer;    
+}
+.like-button {
+    background-color: #FF4500; 
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width:78px;
+    height:23px;
+    transition: 0.3s all;
+}
+
+.like-button:hover {
+    background-color: #FF6347; 
+}
+
+.rating-text {
+    margin-left: 5px;
+}
+
+.rating-stories-container {
+    display: flex;
+    align-items: center;  
+    gap: 0.5rem;  
+  }
+  
+  
+  .appointment-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    margin-right:62%;
+    margin-top:-78px;
+}
+
+.availability {
+    display: flex;
+    align-items: center;
+    color: red;
+    margin-left: 1rem;
+}
+
+.availability-text {
+    margin-left: -47%;
+    font-size:11.8px;
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: slateblue;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    width: 139px;
+    height:31px;  
+}
+
+.book-text {
+    font-size:11.8px;
+    color: white;
+}
+
+.no-fee-text {
+    font-size: 0.7rem;
+    color: white;
+}
+
+.fa-calendar:before {
+    content: "\f133";
+    margin-left: -485%;
+}
+
+.fa-calendar {
+    font-size: 0.8rem;  
+}
+
+.back-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.booking:hover{
+    cursor:pointer;
+}
